@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess 1v1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="top"> CHESS</div>
+    <div class="row">
+    <div class="square white" >
+        <img src="images/rook.black.png" id="a8" height="100%" >
+    </div>
+    <div class="square black">
+        <img src="images/knight.black.png" id="b8" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/bishop.black.png" id="c8" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/queen.black.png" id="d8" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/king.black.png"  id="e8" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/bishop.black.png" id="f8" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/knight.black.png" id="g8" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/rook.black.png" id="h8" height="100%">
+    </div>
+</div>
+ 
+<div class="row">
+    <div class="square black" >
+        <img src="images/pawn.black.png" id="a7" height="100%" >
+    </div>
+    <div class="square white">
+        <img src="images/pawn.black.png" id="b7" height="100%" >
+    </div>
+    <div class="square black">
+        <img src="images/pawn.black.png" id="c7" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.black.png" id="d7" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.black.png" id="e7" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.black.png" id="f7" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.black.png" id="g7" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.black.png" id="h7" height="100%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="square white" id="a6"></div>
+    <div class="square black" id="b6"></div>
+    <div class="square white" id="c6"></div>
+    <div class="square black" id="d7"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+</div>
+
+<div class="row">
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+</div>
+
+<div class="row">
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+</div>
+
+<div class="row">
+    <div class="square black" id="a3"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+    <div class="square black"></div>
+    <div class="square white"></div>
+</div>
+
+<div class="row">
+    <div class="square white" >
+        <img src="images/pawn.white.png" id="a2" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.white.png" id="b2" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.white.png" id="c2" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.white.png" id="d2" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.white.png" id="e2" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.white.png" id="f2" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/pawn.white.png" id="g2" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/pawn.white.png" id="h2" height="100%">
+    </div>
+</div>
+
+<div class="row">
+    <div class="square black" >
+        <img src="images/rook.white.png" id="a1" height="100%">
+    </div>
+    <div class="square white" >
+        <img src="images/knight.white.png" id="b1" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/bishop.white.png" id="c1" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/queen.white.png" id="d1" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/king.white.png" id="e1" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/bishop.white.png" id="f1" height="100%">
+    </div>
+    <div class="square black">
+        <img src="images/knight.white.png" id="g1" height="100%">
+    </div>
+    <div class="square white">
+        <img src="images/rook.white.png" id="h1" height="100%">
+    </div>
+</div>
+<button type="button" onclick="hello()">Click me</button>
+<button type="button" onclick="place()">Place</button>
+<button type="button" onclick="playasblack()">Play as Black</button>
+<button type="button" onclick="playaswhite()">Play as White</button>
+</body>
+<script src="/js/main.js"></script>
+</html>

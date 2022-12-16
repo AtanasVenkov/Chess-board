@@ -1,0 +1,58 @@
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.row{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+   
+}
+
+.square{
+    min-width: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.white{
+background-color: #e1e1b7;
+}
+
+
+.black{
+    background-color: #5e9b22;
+}
+
+
+@media (max-width: 1000px ){
+    .square{
+        width: 70px;
+        height: 70px;
+
+    }
+}
+
+@media (max-width: 750px ){
+    .square{
+        width: 60px;
+        height: 60px;
+
+    }
+}
+
+
+@media (max-width: 500px){
+    .square{
+        width: 50px;
+        height: 50px;
+    }
+}
+    
